@@ -1,0 +1,80 @@
+body{
+    background-color: #0e0e0e;}
+.box{
+    width: 800px;
+    height: 600px;
+    position: absolute; 
+    background-color:black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.post{
+    border-color: #0e0e0e;
+    width: 400px;
+    height: 550px;
+    box-sizing: content-box;    
+    background-color:white;
+    position: absolute; left: 400px; right: 400px; ;
+    margin: auto;
+    margin-top: 50px; 
+}
+.header{
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1px;
+    width: 400px;
+    height: 60px;
+    background-color: white;
+} 
+h1 { font-size: 16px; font-weight: 900;
+ margin-top:10px; margin-bottom: 0;}
+h2 { font-size: 16px;margin-top:0; font-weight: 100;
+}
+.icon {
+    font-size: 23px;
+    margin-left:10px;
+    margin-right: 10px;
+    margin-top:15px;    
+}
+.dots{
+    font-size: 23px;
+    margin-left: 260px;
+    margin-top: 15px;
+}
+div.post img {
+    background-size: 400px 400px;
+    background-color: white; 
+    width: 400px; 
+    height: 300px; 
+}
+#buttons{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: 26px ;
+    margin-top: 20px;
+    }
+.heart{
+        margin-left: 10px;
+    }
+.comment{
+        padding-left:5px;
+        padding-right:5px
+    }
+.plane{
+    margin-left:0;
+}    
+    
+.fa-bookmark{ 
+    margin-left: 270px;
+    font-size: 26px;
+}   
+
+#comment{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12px;
+}
+
